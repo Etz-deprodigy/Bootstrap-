@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FabWatch - Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .hero-section {
+            background-image: url(image/main.jpg); 
+            background-size: cover;
+            height: 80vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       
+        .feature-box {
+            padding: 2rem;
+        }
+        .hero-section h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+        }
+        .section {
+            padding: 3rem 0;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #FFD700 !important;
+        }
+
+       
+
+     
+    </style>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-fuild" href="#"></a>
+
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonial</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="home" class="hero-section">
+        <div>
+            <h1>Discover the Elegance</h1>
+            <p>Explore our luxury wristwatches</p>
+            <a class="btn btn-warning btn-lg" href="#contact">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 feature-box">
+                    <h3>Precision</h3>
+                    <p>Every watch is crafted with the utmost precision to ensure reliability and accuracy.</p>
+                </div>
+                <div class="col-md-4 feature-box">
+                    <h3>Elegance</h3>
+                    <p>Designed to complement any style, our watches add a touch of sophistication to your look.</p>
+                </div>
+                <div class="col-md-4 feature-box">
+                    <h3>Quality</h3>
+                    <p>We use only the highest quality materials to ensure durability and long-lasting wear.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
